@@ -4,7 +4,7 @@
   background-size: cover;
 
   @media (min-width: 992px) {
-    height: 600px;
+    height: 660px;
   }
 
   @media (min-width: 576px) {
@@ -48,4 +48,24 @@
 
 .nav-search {
   width: 600px;
+}
+
+.page-loader {
+  position: fixed;
+  width: 100% !important;
+  height: 100% !important;
+  //height: auto;
+  //width: auto;
+  z-index: 1;
+  background-color: #ffffff;
+  opacity: 0.7;
+}
+
+.page-loader > div {
+  //text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
 }
