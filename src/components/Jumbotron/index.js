@@ -8,7 +8,7 @@ const JumbotronHead = (props) => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-8 offset-md-2">
-                            <h1>Asplash</h1>
+                            <h1>Splash Alpha</h1>
                             <p>
                                 Beautiful, free photos. <br/>
                                 Gifted by the world’s most generous community of photographers.

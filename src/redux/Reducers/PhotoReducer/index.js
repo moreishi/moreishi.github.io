@@ -12,7 +12,6 @@ export default function(state = initialState, action) {
             return {
                 ...state,
                 items: action.payload,
-                search: true
             }
         default:
             return state;

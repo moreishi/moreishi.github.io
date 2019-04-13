@@ -9,7 +9,7 @@ import { Redirect } from "react-router-dom";
 class Home extends Component {
     render() {
 
-        if(this.props.search === false) {
+        if(this.props.search === true) {
             return <Redirect to="/search" />
         }
 
