@@ -1,0 +1,24 @@
+.card-img-overlay {
+  display:none;
+  transition: 1s;
+}
+
+.card:hover {
+  .card-img-overlay {
+    display: block;
+  }
+}
+
+.card-zoom:hover {
+  cursor: zoom-in;
+}
+
+.card {
+  .red {
+    color: #f15151;
+  }
+
+  .btn-card {
+    background-color: #f5f5f5;
+  }
+}

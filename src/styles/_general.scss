@@ -1,0 +1,51 @@
+.jumbotron {
+  background-image: url('https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2891&q=80');
+  -webkit-background-size: cover;
+  background-size: cover;
+
+  @media (min-width: 992px) {
+    height: 600px;
+  }
+
+  @media (min-width: 576px) {
+    padding: 6rem 2rem;
+  }
+
+  h1, p {
+    color: #ffffff
+  }
+
+  h1 {
+    font-size: 46px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+}
+
+::-webkit-input-placeholder {
+  color: peachpuff;
+  //font-size: 15px;
+}
+::-moz-placeholder {
+  color: peachpuff;
+  //font-size: 15px;
+}
+:-ms-input-placeholder {
+  color: peachpuff;
+  //font-size: 15px;
+}
+::placeholder {
+  color: peachpuff;
+  //font-size: 15px;
+}
+
+.form-rounded {
+  border-radius: 4rem!important;
+}
+
+.nav-search {
+  width: 600px;
+}

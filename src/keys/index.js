@@ -1,0 +1,2 @@
+export const API_APPLICATION_ID = '81530a36df86cb18202747328aa17b5be82efcd4d9812f4ec2cf89f02c8a16cb';
+export const API_KEY = 'b2ef928c31010d88e74671661e19f5c1cbdf17f030c595284befbd295fb55bca';
